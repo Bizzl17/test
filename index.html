@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="wrapper__black"></div>
+        <header>
+            <h1>Contacts Book</h1>
+        </header>
+        <div class="container__contacts">
+   
+        </div>
+
+        
+        <div class="form-popup" id="myForm">
+            <form  class="form-container">
+              <h1>Редактирвоание контакта</h1>
+          
+              <label for="name"><b>Имя</b></label>
+              <input type="text" placeholder="Имя" name="name"  id ='name'required>
+          
+              <label for="email"><b>Почта</b></label>
+              <input type="text" placeholder="Почта" name="email" id="email" required>
+              
+              <label for="phone"><b>Phone</b></label>
+              <input type="text" placeholder="Phone" name="phone" id="phone" required>
+          
+              <label for="address"><b>Address</b></label>
+              <input type="text" placeholder="Address" name="address" id="address" required>
+
+              <label for="company"><b>Company</b></label>
+              <input type="text" placeholder="Company" name="company" id="company" required>
+          
+              <label for="site"><b>Website</b></label>
+              <input type="text" placeholder="site" name="site"  id="site" required>
+
+              
+          
+              <button type="button" class="btn"  id="save" >Сохранить</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+            </form>
+          </div>
+          
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
